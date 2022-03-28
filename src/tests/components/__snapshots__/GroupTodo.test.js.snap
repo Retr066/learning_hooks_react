@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas para el componente GroupTodo debe renderizar correctamente 1`] = `
+<Fragment>
+  <ol
+    className="list-group list-group-numbered"
+  >
+    <Todo
+      handleDelete={[Function]}
+      handleToogleCompleted={[Function]}
+      key="1"
+      todo={
+        Object {
+          "completed": true,
+          "desc": "Study react hooks (useReducer)",
+          "id": 1,
+          "title": "Learnig react",
+        }
+      }
+    />
+    <Todo
+      handleDelete={[Function]}
+      handleToogleCompleted={[Function]}
+      key="2"
+      todo={
+        Object {
+          "completed": false,
+          "desc": "Study react hooks (test)",
+          "id": 2,
+          "title": "Learnig test in react js",
+        }
+      }
+    />
+  </ol>
+</Fragment>
+`;

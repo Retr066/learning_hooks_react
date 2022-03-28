@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas para CardBreakingbadScreen debe renderizar correctamente 1`] = `
+<div
+  className="container"
+>
+  <h2>
+    Form con Custom Hooks
+  </h2>
+  <hr />
+  <Alert />
+</div>
+`;

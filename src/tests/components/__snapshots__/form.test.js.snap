@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en el componente de Form debe renderizar correctamente 1`] = `
+<Fragment>
+  <form
+    onSubmit={[Function]}
+  >
+    <div
+      className="mb-3"
+    >
+      <label
+        className="form-label"
+        htmlFor="exampleFormControlInput1"
+      >
+        Title
+      </label>
+      <input
+        autoComplete="off"
+        className="form-control"
+        name="title"
+        onChange={[Function]}
+        placeholder="Ingrese su nombre completo"
+        type="text"
+        value=""
+      />
+    </div>
+    <div
+      className="mb-3"
+    >
+      <label
+        className="form-label"
+        htmlFor="exampleFormControlTextarea1"
+      >
+        Description
+      </label>
+      <textarea
+        autoComplete="off"
+        className="form-control"
+        name="desc"
+        onChange={[Function]}
+        onKeyDown={[Function]}
+        rows="3"
+        value=""
+      />
+    </div>
+    <div
+      className="mb-3"
+    >
+      <button
+        className="btn btn-outline-success"
+        type="submit"
+      >
+        AddTodo
+      </button>
+    </div>
+  </form>
+</Fragment>
+`;
